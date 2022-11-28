@@ -1,0 +1,14 @@
+<form action="{% url 'fbv_view' %}" method="post">
+    {% csrf_token %}  
+
+    <div>
+        <input class="form-control" type="text" name="text" placeholder="text">
+    </div>
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
+
+<div>
+    {% if result %}
+    <img src="/media/{{ result }}" alt="qr code">
+    {% endif %}
+</div> 
