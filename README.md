@@ -9,3 +9,18 @@ Function Base View
 CBV ApiView Rest Framework
 
 ![CBVD RF](https://media.discordapp.net/attachments/967155969467506749/1047431250006253609/example_api.png?width=1440&height=666)
+
+
+## Installation
+1. run the following command inside your git enabled terminal
+ ```bash
+git clone https://github.com/H-VICTOOR/qr-code-generator-website.git
+```
+3. install the requirements.txt with  
+```bash
+pip install -r requirements.txt
+```
+4. go to core folder and run project with
+```bash
+python manage.py runserver
+```
